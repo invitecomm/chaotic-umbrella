@@ -1,0 +1,6 @@
+[submodule "trunk/CI3"]
+	path = trunk/CI3
+	url = git@github.com:bcit-ci/CodeIgniter.git
+[submodule "trunk/CI4"]
+	path = trunk/CI4
+	url = git@github.com:bcit-ci/CodeIgniter4.git
