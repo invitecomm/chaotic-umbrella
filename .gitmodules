@@ -1,0 +1,4 @@
+[submodule "trunk/CI3"]
+	path = trunk/CI3
+	url = git@github.com:bcit-ci/CodeIgniter.git
+	branch = develop
