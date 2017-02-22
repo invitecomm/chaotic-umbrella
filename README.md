@@ -1,7 +1,15 @@
 # Chaotic-Umbrella
 A flexable website deployment environment for use accross multiple servers.
 
-This project relies on <h3>Submodules</h3> to function.  It's a framework built to support different branches of a website.  If you check-out this project, you should use `git clone --recursive git@github.com:invitecomm/chaotic-umbrella.git` 
+This project relies on **Submodules** to function.  It's a framework built to support different branches of a website.  If you check-out this project, you should use:
+
+`git clone --recursive git@github.com:invitecomm/chaotic-umbrella.git` 
+
+<h3>Adding a branch</h3>
+Once the parent repository is ready for deployment, use the folloiwng command to add the spefice branch as a submodule:
+
+`git submodule add -b BRANCH PROJECT`
+
 
 > You may see the typical SVN dev structure below.
 > This is the first attempt to move towards git.
