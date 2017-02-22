@@ -7,3 +7,4 @@
 [submodule "branch/CI3/stable"]
 	path = branch/CI3/stable
 	url = git@github.com:bcit-ci/CodeIgniter.git
+	branch = 3.1-stable
