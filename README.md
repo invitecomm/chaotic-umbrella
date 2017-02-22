@@ -1,6 +1,8 @@
 # Chaotic-Umbrella
 A flexable website deployment environment for use accross multiple servers.
 
+This project relies on <h3>Submodules</h3> to function.  It's a framework built to support different branches of a website.  If you check-out this project, you should use `git clone --recursive git@github.com:invitecomm/chaotic-umbrella.git` 
+
 > You may see the typical SVN dev structure below.
 > This is the first attempt to move towards git.
 
