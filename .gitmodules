@@ -2,3 +2,7 @@
 	path = trunk/CI3
 	url = git@github.com:bcit-ci/CodeIgniter.git
 	branch = develop
+[submodule "branch/CI3/3.1-stable"]
+	path = branch/CI3/3.1-stable
+	url = git@github.com:bcit-ci/CodeIgniter.git
+	branch = 3.1-stable
