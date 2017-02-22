@@ -1,6 +1,9 @@
 # Chaotic-Umbrella
 A flexable website deployment environment for use accross multiple servers.
 
+> You may see the typical SVN dev structure below.
+> This is the first attempt to move towards git.
+
 CU is an attempt to combine all of the website projects under
 a single repository.  While keeping the Apache configuration
 simple and static.
@@ -18,17 +21,20 @@ services have a static A Record.  Others use subdomain wildcard
 domain names.  While the DocumentRoot path points to the symlink
 for each specific service.  (See tree below)
 
-www.fqdn.tld 	= Live Server
-www.dev.fqdn.tld 	= Dev on Live Server 
-www.web2.fqdn.tld	= New Server
-www.dev2.fqdn.tld	= Dev on New Server
+* www.fqdn.tld 	= Live Server
+* www.dev.fqdn.tld 	= Dev on Live Server 
+* www.web2.fqdn.tld	= New Server
+* www.dev2.fqdn.tld	= Dev on New Server
 
+```apache
 <VirtualHost *:80>
     ServerName placeholdername
     ServerAlias *.dev2.invite-comm.jp
     VirtualDocumentRoot /var/www/html/cu/symlinks/%1/dev
 </VirtualHost>
+```
 
+```
 ├── branch
 │   ├── 0.0.0
 │   │   ├── support
@@ -57,3 +63,4 @@ www.dev2.fqdn.tld	= Dev on New Server
 └── trunk
     ├── support
     └── www
+   ```
