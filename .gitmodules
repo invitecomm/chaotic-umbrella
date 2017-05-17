@@ -13,3 +13,7 @@
 	path = trunk/portal
 	url = git@github.com:invitecomm/CodeIgniter.git
 	branch = portal
+[submodule "trunk/codeigniter3-translations"]
+	path = trunk/codeigniter3-translations
+	url = git@github.com:bcit-ci/codeigniter3-translations.git
+	branch = master
