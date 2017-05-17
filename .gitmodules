@@ -17,3 +17,7 @@
 	path = trunk/codeigniter3-translations
 	url = git@github.com:bcit-ci/codeigniter3-translations.git
 	branch = master
+[submodule "trunk/HMVC"]
+	path = trunk/HMVC
+	url = git@github.com:invitecomm/codeigniter-modular-extensions-hmvc.git
+	branch = codeigniter-3.x
