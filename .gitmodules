@@ -9,3 +9,7 @@
 [submodule "trunk/poing-ci3"]
 	path = trunk/poing-ci3
 	url = git@github.com:poing/CodeIgniter.git
+[submodule "trunk/portal"]
+	path = trunk/portal
+	url = git@github.com:invitecomm/CodeIgniter.git
+	branch = portal
