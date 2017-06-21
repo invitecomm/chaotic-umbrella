@@ -21,3 +21,12 @@
 	path = trunk/HMVC
 	url = git@github.com:invitecomm/codeigniter-modular-extensions-hmvc.git
 	branch = codeigniter-3.x
+[submodule "trunk/ci4"]
+	path = trunk/ci4
+	url = git@github.com:invitecomm/CodeIgniter4.git
+[submodule "trunk/develop"]
+	path = trunk/develop
+	url = git@github.com:invitecomm/CodeIgniter.git
+[submodule "trunk/yii2"]
+	path = trunk/yii2
+	url = git@github.com:yiisoft/yii2.git
