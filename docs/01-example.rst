@@ -6,7 +6,7 @@
 The Awesome Class
 =================
 
-.. xxx xxx php:namespace:: Cool\Namespace
+.. php:namespace:: Cool\Namespace
 
 .. php:class:: Awesome
 
