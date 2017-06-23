@@ -21,6 +21,3 @@
 	path = trunk/HMVC
 	url = git@github.com:invitecomm/codeigniter-modular-extensions-hmvc.git
 	branch = codeigniter-3.x
-[submodule "docs"]
-	path = docs
-	url = git@github.com:invitecomm/rtdsphinx-php.git
