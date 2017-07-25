@@ -30,3 +30,6 @@
 [submodule "trunk/yii2"]
 	path = trunk/yii2
 	url = git@github.com:yiisoft/yii2.git
+[submodule "trunk/revamp"]
+	path = trunk/revamp
+	url = git@github.com:invitecomm/CodeIgniter.git
