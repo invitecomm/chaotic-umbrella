@@ -33,3 +33,6 @@
 [submodule "trunk/revamp"]
 	path = trunk/revamp
 	url = git@github.com:invitecomm/CodeIgniter.git
+[submodule "trunk/hmvc-rv"]
+	path = trunk/hmvc-rv
+	url = git@github.com:invitecomm/hmvc-rv.git
